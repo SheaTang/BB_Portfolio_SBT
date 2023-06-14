@@ -12,9 +12,3 @@ function Home() {
     />
   );
 }
-//function Home(){
-//return
-//   <h1>Home<br/>
-//        {JSON.stringify(ctx)}
-//  );
-//}
