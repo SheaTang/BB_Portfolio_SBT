@@ -78,15 +78,29 @@ ui.createAccount =(
 );
 
 ui.login =(  
-    <div class="card text-white bg-primary mb3" style="max-width: 18rem;">
+    <div class="card text-white bg-secondary mb3" style="max-width: 18rem;">
         <div class="card-header">Login</div>
         <div class="card-body">
             Email<br>
             <input type="input" class="form-control" id="loginEmail" placeholder="Enter email"></br>
             Password<br>
-            <input type="password" class="form-control" id="loginPaaword" placeholder="Enter password"><br>
+            <input type="password" class="form-control" id="loginPassword" placeholder="Enter password"><br>
             <button type="submit" id="submit" class="btn" onClick="login()">Login</button>
             <div id='loginStatus'></div>
+        </div>
+    </div>
+);
+
+ui.deposit =(  
+    <div class="card text-white bg-warning mb3" style="max-width: 18rem;">
+        <div class="card-header">Deposit</div>
+        <div class="card-body">
+            Email<br>
+            <input type="input" class="form-control" id="depositEmail" placeholder="Enter email"></br>
+            Amount<br>
+            <input type="number" class="form-control" id="depositAmount" placeholder="Enter amount"><br>
+            <button type="submit" class="btn" onClick="deposit()">Deposit</button>
+            <div id='depositStatus'></div>
         </div>
     </div>
 );
