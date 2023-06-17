@@ -61,7 +61,7 @@ ui.navigation = (
 var navigation = document.getElementById('navigation');
 navigation.innerHTML += ui.navigation;
 
-ui.createAccount =(  
+ui.createAccount =`  
     <div class="card text-white bg-primary mb3" style="max-width: 18rem;">
         <div class="card-header">CreateAccount</div>
         <div class="card-body">
@@ -75,7 +75,7 @@ ui.createAccount =(
             <div id='createStatus'></div>
         </div>
     </div>
-);
+`;
 
 ui.login =(  
     <div class="card text-white bg-secondary mb3" style="max-width: 18rem;">
@@ -131,3 +131,24 @@ ui.balance =(
         </div>
     </div>
 );
+
+ui.default =( 
+    <div class="card text-white bg-light mb3" style="max-width: 18rem;">
+        <div class="card-header">BadBank Landing Module</div>
+        <div class="card-body">
+            <h5 class="card-titile">Welcome to Bad Banking</h5>
+            <p class="card-text"> You can move around using the navigation bar.</p>
+            <img src="image/bank.jpg" class="img-fluid" alt="Responsive image"></img>
+        </div>
+    </div>
+);
+
+ui.alldata =(
+    <h5> All Data Store</h5>
+    <button type="button" class="btn btn-secondary" onclick="alldata()">Show All Data</button>
+    <div id="allDataStyles"></div>
+);
+
+var loadCreateAccount = function(){
+    EventTarget.innerHTML = ui.createAccount;
+};
