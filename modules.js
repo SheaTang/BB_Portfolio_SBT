@@ -104,3 +104,17 @@ ui.deposit =(
         </div>
     </div>
 );
+
+ui.withdraw =(  
+    <div class="card text-white bg-info mb3" style="max-width: 18rem;">
+        <div class="card-header">Withdraw</div>
+        <div class="card-body">
+            Email<br>
+            <input type="input" class="form-control" id="withdrawEmail" placeholder="Enter email"></br>
+            Amount<br>
+            <input type="number" class="form-control" id="withdrawAmount" placeholder="Enter amount"><br>
+            <button type="submit" class="btn" onClick="withdraw()">Submit</button>
+            <div id='withdrawStatus'></div>
+        </div>
+    </div>
+);
