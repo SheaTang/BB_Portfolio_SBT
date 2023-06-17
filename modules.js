@@ -150,5 +150,31 @@ ui.alldata =(
 );
 
 var loadCreateAccount = function(){
-    EventTarget.innerHTML = ui.createAccount;
+    target.innerHTML = ui.createAccount;
 };
+
+var loadLogin = function(){
+    target.innerHTML = ui.login;
+};
+
+var loadDeposit = function(){
+    target.EventTarget = ui.deposit;
+};
+
+var loadWithdraw = function(){
+    target.innerHTML = ui.withdraw;
+};
+
+var loadBalance = function(){
+    target.innerHTML = ui.balance;
+};
+
+var defaultModule = function(){
+    target.innerHTML = ui.default;
+};
+
+var loadAllData = function(){
+    target.innerHTML = ui.allData;
+};
+
+defaultModule();
