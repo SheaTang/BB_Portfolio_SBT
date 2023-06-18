@@ -1,6 +1,6 @@
 var ui = {};
 
-ui.navigation = `
+ui.navigation = 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#" onclick="defaultModule()">
       BadBank
@@ -62,12 +62,12 @@ ui.navigation = `
       </ul>
     </div>
   </nav>
-`;
+;
 
 var navigation = document.getElementById("navigation");
 navigation.innerHTML += ui.navigation;
 
-ui.createAccount = ` 
+ui.createAccount =
     <div class="card text-white bg-primary mb3" style="max-width: 18rem;">
         <div class="card-header">CreateAccount</div>
         <div class="card-body">
@@ -81,9 +81,9 @@ ui.createAccount = `
             <div id='createStatus'></div>
         </div>
     </div>
-`;
+;
 
-ui.login = `  
+ui.login = `
     <div class="card text-white bg-secondary mb3" style="max-width: 18rem;">
         <div class="card-header">Login</div>
         <div class="card-body">
@@ -97,7 +97,7 @@ ui.login = `
     </div>
 `;
 
-ui.deposit = `  
+ui.deposit = `
     <div class="card text-white bg-warning mb3" style="max-width: 18rem;">
         <div class="card-header">Deposit</div>
         <div class="card-body">
@@ -111,7 +111,7 @@ ui.deposit = `
     </div>
 `;
 
-ui.withdraw = `  
+ui.withdraw = `
     <div class="card text-white bg-success mb3" style="max-width: 18rem;">
         <div class="card-header">Withdraw</div>
         <div class="card-body">
@@ -125,7 +125,7 @@ ui.withdraw = `
     </div>
 `;
 
-ui.balance = `  
+ui.balance = `
     <div class="card text-white bg-info mb3" style="max-width: 18rem;">
         <div class="card-header">Balance</div>
         <div class="card-body">
@@ -138,7 +138,7 @@ ui.balance = `
     </div>
 `;
 
-ui.default = ` 
+ui.default = `
     <div class="card text-white bg-light mb3" style="max-width: 18rem;">
         <div class="card-header">BadBank Landing Module</div>
         <div class="card-body">
