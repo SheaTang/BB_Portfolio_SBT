@@ -1,6 +1,6 @@
 var ui = {};
 
-ui.navigation = 
+ui.navigation = `
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#" onclick="defaultModule()">
       BadBank
@@ -25,49 +25,43 @@ ui.navigation =
             onClick="loadCreateAccount()"
             id="CreateAccount"
           >
-            {" "}
             Create Account
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#" onClick="loadLogin()" id="login">
-            {" "}
             Login
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#" onClick="loadDeposit()">
-            {" "}
             Deposit
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#" onClick="loadWithdraw()">
-            {" "}
             Withdraw
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#" onClick="loadBalance()">
-            {" "}
             Balance
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#" onClick="loadAllData()">
-            {" "}
             AllData
           </a>
         </li>
       </ul>
     </div>
   </nav>
-;
+`;
 
 var navigation = document.getElementById("navigation");
 navigation.innerHTML += ui.navigation;
 
-ui.createAccount =
+ui.createAccount = `
     <div class="card text-white bg-primary mb3" style="max-width: 18rem;">
         <div class="card-header">CreateAccount</div>
         <div class="card-body">
@@ -81,7 +75,7 @@ ui.createAccount =
             <div id='createStatus'></div>
         </div>
     </div>
-;
+`;
 
 ui.login = `
     <div class="card text-white bg-secondary mb3" style="max-width: 18rem;">
