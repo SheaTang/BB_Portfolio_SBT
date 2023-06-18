@@ -1,12 +1,12 @@
 var ui = {};
 
-ui.navigation = (
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    <a className="navbar-brand" href="#">
-      Bad Bank
+ui.navigation = `
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#" onclick="defaultModule()">
+      BadBank
     </a>
     <button
-      className="navbar-toggler"
+      class="navbar-toggler"
       type="button"
       data-toggle="collapse"
       data-target="#navbarNav"
@@ -14,54 +14,60 @@ ui.navigation = (
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
-      <span className="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
     </button>
-    <div className="collapse navbar-collapse" id="navbarNav">
-      <ul className="navbar-nav">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
         <li className="nav-item">
           <a
-            className="nav-link"
+            class="nav-link"
             href="#CreateAccount"
             onClick="loadCreateAccount()"
             id="CreateAccount"
           >
+            {" "}
             Create Account
           </a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#" onClick="loadLogin()" id="login">
+        <li class="nav-item">
+          <a class="nav-link" href="#" onClick="loadLogin()" id="login">
+            {" "}
             Login
           </a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#" onClick="loadDeposit()">
+        <li class="nav-item">
+          <a class="nav-link" href="#" onClick="loadDeposit()">
+            {" "}
             Deposit
           </a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#" onClick="loadWithdraw()">
+        <li class="nav-item">
+          <a class="nav-link" href="#" onClick="loadWithdraw()">
+            {" "}
             Withdraw
           </a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#" onClick="loadBalance()">
+        <li class="nav-item">
+          <a class="nav-link" href="#" onClick="loadBalance()">
+            {" "}
             Balance
           </a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#" onClick="loadAllData()">
+        <li class="nav-item">
+          <a class="nav-link" href="#" onClick="loadAllData()">
+            {" "}
             AllData
           </a>
         </li>
       </ul>
     </div>
   </nav>
-);
+`;
 
-var navigation = document.getElementById('navigation');
+var navigation = document.getElementById("navigation");
 navigation.innerHTML += ui.navigation;
 
-ui.createAccount =`  
+ui.createAccount = ` 
     <div class="card text-white bg-primary mb3" style="max-width: 18rem;">
         <div class="card-header">CreateAccount</div>
         <div class="card-body">
@@ -77,7 +83,7 @@ ui.createAccount =`
     </div>
 `;
 
-ui.login =(  
+ui.login = `  
     <div class="card text-white bg-secondary mb3" style="max-width: 18rem;">
         <div class="card-header">Login</div>
         <div class="card-body">
@@ -89,9 +95,9 @@ ui.login =(
             <div id='loginStatus'></div>
         </div>
     </div>
-);
+`;
 
-ui.deposit =(  
+ui.deposit = `  
     <div class="card text-white bg-warning mb3" style="max-width: 18rem;">
         <div class="card-header">Deposit</div>
         <div class="card-body">
@@ -103,9 +109,9 @@ ui.deposit =(
             <div id='depositStatus'></div>
         </div>
     </div>
-);
+`;
 
-ui.withdraw =(  
+ui.withdraw = `  
     <div class="card text-white bg-success mb3" style="max-width: 18rem;">
         <div class="card-header">Withdraw</div>
         <div class="card-body">
@@ -117,9 +123,9 @@ ui.withdraw =(
             <div id='withdrawStatus'></div>
         </div>
     </div>
-);
+`;
 
-ui.balance =(  
+ui.balance = `  
     <div class="card text-white bg-info mb3" style="max-width: 18rem;">
         <div class="card-header">Balance</div>
         <div class="card-body">
@@ -130,9 +136,9 @@ ui.balance =(
             <div id='balanceStatus'></div>
         </div>
     </div>
-);
+`;
 
-ui.default =( 
+ui.default = ` 
     <div class="card text-white bg-light mb3" style="max-width: 18rem;">
         <div class="card-header">BadBank Landing Module</div>
         <div class="card-body">
@@ -141,40 +147,46 @@ ui.default =(
             <img src="image/bank.jpg" class="img-fluid" alt="Responsive image"></img>
         </div>
     </div>
-);
+`;
 
-ui.alldata =(
+ui.alldata = `
     <h5> All Data Store</h5>
     <button type="button" class="btn btn-secondary" onclick="alldata()">Show All Data</button>
     <div id="allDataStyles"></div>
-);
+`;
 
-var loadCreateAccount = function(){
-    target.innerHTML = ui.createAccount;
+var loadCreateAccount = function () {
+  target.innerHTML = ui.createAccount;
 };
 
-var loadLogin = function(){
-    target.innerHTML = ui.login;
+var loadLogin = function () {
+  target.innerHTML = ui.login;
 };
 
-var loadDeposit = function(){
-    target.EventTarget = ui.deposit;
+var loadDeposit = function () {
+  target.EventTarget = ui.deposit;
 };
 
-var loadWithdraw = function(){
-    target.innerHTML = ui.withdraw;
+var loadWithdraw = function () {
+  target.innerHTML = ui.withdraw;
 };
 
-var loadBalance = function(){
-    target.innerHTML = ui.balance;
+var loadBalance = function () {
+  target.innerHTML = ui.balance;
 };
 
-var defaultModule = function(){
-    target.innerHTML = ui.default;
+var defaultModule = function () {
+  target.innerHTML = ui.default;
 };
 
-var loadAllData = function(){
-    target.innerHTML = ui.allData;
+var loadAllData = function () {
+  target.innerHTML = ui.allData;
 };
 
-defaultModule();
+{
+  /* Default Module loaded: */
+}
+{
+  /* defaultModule(); */
+}
+loadCreateAccount();
