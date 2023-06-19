@@ -41,3 +41,7 @@ function Spa() {
 // })
 
 ReactDOM.render(<Spa />, document.getElementById("root"));
+
+// bootstrap.Carousel.getInstance(element)
+
+// bootstrap.Carousel.getOrCreateInstance(element).
