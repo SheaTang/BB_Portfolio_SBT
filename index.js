@@ -30,4 +30,14 @@ function Spa() {
   );
 }
 
+// function Login() {
+//   const [show, setShow] = React.useState(true);
+//   const [status, setStatus] = React.useState("");
+// const myCarouselElement = document.querySelector('#myCarousel')
+
+// const carousel = new bootstrap.Carousel(myCarouselElement, {
+//   interval: 2000,
+//   touch: false
+// })
+
 ReactDOM.render(<Spa />, document.getElementById("root"));
