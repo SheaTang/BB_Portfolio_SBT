@@ -177,10 +177,7 @@ var loadAllData = function () {
   target.innerHTML = ui.allData;
 };
 
-{
-  /* Default Module loaded: */
-}
-{
-  /* defaultModule(); */
-}
-loadCreateAccount();
+/* Default Module loaded: */
+defaultModule();
+
+// loadCreateAccount();
