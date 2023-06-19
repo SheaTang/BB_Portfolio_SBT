@@ -22,6 +22,10 @@ function create(){
         email:      email.value,   
         password:   password.value,
         balance:    0,
-    })
-
+    });
+    // update status & clear form 
+    name.value = '';
+    email.value = '';
+    password.value = '';
+    status.innerHTML = 'Success';
 }
