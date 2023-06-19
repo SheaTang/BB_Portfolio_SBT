@@ -148,7 +148,7 @@ ui.alldata = `
     <button type="button" class="btn btn-secondary" onclick="alldata()">Show All Data</button>
     <div id="allDataStyles"></div>
 `;
-
+// [Funtions to be called:]
 var loadCreateAccount = function () {
   target.innerHTML = ui.createAccount;
 };
