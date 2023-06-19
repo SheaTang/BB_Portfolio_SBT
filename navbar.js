@@ -2,7 +2,13 @@ function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="#">
-        Bad Bank
+        {/* Bad Bank */}
+
+        <img
+          src="image/SVB_NavLogo.png"
+          className="img-fluid"
+          alt="Responsive image"
+        />
       </a>
       <button
         className="navbar-toggler"
