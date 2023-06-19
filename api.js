@@ -29,3 +29,7 @@ function create(){
     password.value = '';
     status.innerHTML = 'Success';
 }
+function allData(){
+    const status = document.getElementById('allDataStatus');
+    status.innerHTML = JSON.stringify(ctx.accounts);
+}
