@@ -38,8 +38,8 @@ function Spa() {
 
 // const carousel = new bootstrap.Carousel(myCarouselElement, {
 //   interval: 2000,
-//   touch: false
-// })
+//   touch: false,
+// });
 
 ReactDOM.render(<Spa />, document.getElementById("root"));
 
