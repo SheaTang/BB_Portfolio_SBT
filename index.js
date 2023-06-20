@@ -2,6 +2,7 @@
 function Spa() {
   return (
     <HashRouter>
+      <h1>HELLO THERE ARE ALOT OF PEOPLE </h1>
       <NavBar />
       <UserContext.Provider
         value={{
