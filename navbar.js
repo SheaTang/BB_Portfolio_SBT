@@ -1,6 +1,6 @@
 function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-secondary">
       <a className="navbar-brand" href="#">
         {/* Bad Bank */}
 

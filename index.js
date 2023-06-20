@@ -11,7 +11,7 @@ function Spa() {
               name: "sheena",
               email: "sheenabish@mac.com",
               password: "secret",
-              balance: 100,
+              balance: 0,
             },
           ],
         }}
