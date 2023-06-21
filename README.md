@@ -56,6 +56,7 @@ View API documentation at: https://sheena-bishtang-bankingapp-7d41469db727.herok
 ## License:
 
 This project is licensed under the MIT license. See the (LICENSE) file for more info.
-<img width="1357" alt="Screenshot 2023-06-20 at 7 30 49 PM" src="https://github.com/SheaTang/BB_Portfolio_SBT/assets/101611557/cd0bf372-8c25-4777-ae60-40976876fc75">
+[image](<img width="1357" alt="Screenshot 2023-06-20 at 7 30 49 PM" src="https://github.com/SheaTang/BB_Portfolio_SBT/assets/101611557/cd0bf372-8c25-4777-ae60-40976876fc75">)
 
 
+```
