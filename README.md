@@ -43,7 +43,7 @@ View API documentation at: https://sheena-bishtang-bankingapp-7d41469db727.herok
 
 ## Technology used:
 
-<li>This project uses express, mongodb, cors, dotenv, firebase, and docker container for our database (mongodb)
+<li>This project uses Mongodb, Express, Node, React, JavaScript, HTML, CSS, and Bootstrap
 
 <p align="center">
 
