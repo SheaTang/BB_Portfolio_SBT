@@ -35,9 +35,9 @@ Run:
 
 View the website at: http://localhost:3000
 
-View the website on Amazon at: [LINK]
+View the website on Heroku at: [LINK]
 
-View API documentation at: http://44.210.131.94:3000/api-docs
+View API documentation at: https://sheena-bishtang-bankingapp-7d41469db727.herokuapp.com/#/carousel-1
 
 ## Screenshots:
 
@@ -49,10 +49,6 @@ View API documentation at: http://44.210.131.94:3000/api-docs
 
 </p>
 
-If you are using docker to run your mongodb, use the following code to create in instance
-
-```
-$ docker run --name some-mongo -d mongo:tag
 ```
 
 ## Features:
