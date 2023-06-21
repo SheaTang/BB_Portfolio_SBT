@@ -1,4 +1,5 @@
 # Project: BadBank Portfolio Capstone
+![bank](https://github.com/SheaTang/BB_Portfolio_SBT/assets/101611557/8499ff5d-9359-495d-bb36-c575a009ee44)
 
 ## Description/Motivation:
 
@@ -51,6 +52,18 @@ This project uses Mongodb, Express, Node, React, JavaScript, HTML, CSS, and Boot
 
 
 ## Screenshots:
+![svbLarge](https://github.com/SheaTang/BB_Portfolio_SBT/assets/101611557/c6c9ab90-26a3-42bb-90ee-c300b5c6f96d)
+
+![home](https://github.com/SheaTang/BB_Portfolio_SBT/assets/101611557/70aad2b0-6abe-4cf5-8a01-8196fe7de2b9)
+![2](https://github.com/SheaTang/BB_Portfolio_SBT/assets/101611557/616e43e6-47eb-4d3e-ba81-77f0e0da4c28)
+![3](https://github.com/SheaTang/BB_Portfolio_SBT/assets/101611557/6b90d515-0520-4a9a-8f85-9b4b33373b2d)
+![4](https://github.com/SheaTang/BB_Portfolio_SBT/assets/101611557/910da66f-7d66-4989-a6a9-967618d31ba4)
+![5](https://github.com/SheaTang/BB_Portfolio_SBT/assets/101611557/4a656e31-2477-4915-a268-8e142a8fe71f)
+![6](https://github.com/SheaTang/BB_Portfolio_SBT/assets/101611557/2cd62536-d22e-4279-9113-42aa77d3a675)
+![7](https://github.com/SheaTang/BB_Portfolio_SBT/assets/101611557/c43e12d2-1a3e-444e-bb2e-299c1a771fc1)
+![8](https://github.com/SheaTang/BB_Portfolio_SBT/assets/101611557/ad9b034b-2d6d-4554-b869-3def905afee7)
+![9](https://github.com/SheaTang/BB_Portfolio_SBT/assets/101611557/0c5120bd-e7de-45cb-8a66-08ab5562d74a)
+
 
 ## License:
 
